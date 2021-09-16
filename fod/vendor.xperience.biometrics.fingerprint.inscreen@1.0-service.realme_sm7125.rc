@@ -9,8 +9,8 @@ on boot
     chmod 0666 /sys/kernel/oppo_display/power_status
     chmod 0666 /sys/kernel/oppo_display/notify_panel_blank
 
-service vendor.fingerprint-inscreen-1-0 /vendor/bin/hw/vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.realme_sm7125
-    interface vendor.lineage.biometrics.fingerprint.inscreen@1.0::IFingerprintInscreen default
+service vendor.fingerprint-inscreen-1-0 /vendor/bin/hw/vendor.xperience.biometrics.fingerprint.inscreen@1.0-service.realme_sm7125
+    interface vendor.xperience.biometrics.fingerprint.inscreen@1.0::IFingerprintInscreen default
     class hal
     user system
     group system

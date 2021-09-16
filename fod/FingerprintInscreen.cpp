@@ -50,7 +50,7 @@ static T get(const std::string& path, const T& def) {
 } // anonymous namespace
 
 namespace vendor {
-namespace lineage {
+namespace xperience {
 namespace biometrics {
 namespace fingerprint {
 namespace inscreen {
@@ -137,7 +137,7 @@ Return<bool> FingerprintInscreen::isDozeMode() {
     return (get(POWER_STATUS_PATH, 0) == 1) || (get(POWER_STATUS_PATH, 0) == 3);
 }
 
-Return<void> FingerprintInscreen::setCallback(const sp<::vendor::lineage::biometrics::fingerprint::inscreen::V1_0::IFingerprintInscreenCallback>& callback) {
+Return<void> FingerprintInscreen::setCallback(const sp<::vendor::xperience::biometrics::fingerprint::inscreen::V1_0::IFingerprintInscreenCallback>& callback) {
     {
         std::lock_guard<std::mutex> _lock(mCallbackLock);
         mCallback = callback;
@@ -150,6 +150,6 @@ Return<void> FingerprintInscreen::setCallback(const sp<::vendor::lineage::biomet
 }  // namespace inscreen
 }  // namespace fingerprint
 }  // namespace biometrics
-}  // namespace lineage
+}  // namespace xperience
 }  // namespace vendor
 
