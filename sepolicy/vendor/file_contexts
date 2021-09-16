@@ -1,5 +1,5 @@
 # FOD Hal
-/(vendor|system/vendor)/bin/hw/vendor\.xperience\.biometrics\.fingerprint\.inscreen@1.0-service\.realme_sm7125    u:object_r:hal_xperience_fod_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.xperience\.biometrics\.fingerprint\.inscreen@1.0-service\.realme_sm7125    u:object_r:hal_xpe_fod_default_exec:s0
 
 # Goodix Fingerprint device
 /dev/goodix_fp                                                                                           u:object_r:goodix_device:s0
