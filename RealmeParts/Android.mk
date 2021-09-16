@@ -25,8 +25,7 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
     androidx.legacy_legacy-support-v13 \
     androidx.palette_palette \
     androidx.preference_preference \
-    androidx.recyclerview_recyclerview \
-    VendorSupport-preference
+    androidx.recyclerview_recyclerview
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_PACKAGE_NAME := RealmeParts

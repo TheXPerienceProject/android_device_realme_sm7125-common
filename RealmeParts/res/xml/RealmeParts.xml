@@ -29,7 +29,7 @@
         android:title="@string/otg">
 
 
-    <com.ssos.support.preferences.SwitchPreference
+    <SwitchPreference
             android:key="otg"
             android:summary="@string/otg_summary"
             android:title="@string/otg_title"
