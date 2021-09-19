@@ -70,9 +70,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/FODicons/5.png:install/bin/FODicons/5.png \
     $(LOCAL_PATH)/configs/FODicons/rui.png:install/bin/FODicons/rui.png
 
-PRODUCT_PACKAGES += \
-    CameraRoll
-
 # AVB
 PRODUCT_PACKAGES += \
     q-gsi.avbpubkey \
@@ -277,10 +274,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Perf
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.2.vendor
-
-# Prebuilt apps (papps)
-PRODUCT_PACKAGES += \
-    GCamGo
 
 # Power
 PRODUCT_PACKAGES += \
